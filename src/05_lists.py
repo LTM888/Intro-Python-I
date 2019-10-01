@@ -18,15 +18,23 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE 
-x = 
+x.extend((4, 9, 10))
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE 
+x.extend([4, 9, 99, 10])
 print(x)
 
 # Print the length of list x
-# YOUR CODE HERE 
+# YOUR CODE HERE
+print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+def multiplyList(x):
+    result = 1
+    for x in x:
+        result = result * 1000
+    return result
+print(multiplyList(x))
