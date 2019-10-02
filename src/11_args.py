@@ -6,6 +6,10 @@
 
 # YOUR CODE HERE
 
+def f1(arg1, *argv):
+    sum = arg1 + *argv
+    print(sum)
+
 print(f1(1, 2))
 
 # Write a function f2 that takes any number of integer arguments and prints the
